@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4609389535988727399}
   - component: {fileID: 4609389535988727393}
   - component: {fileID: 4609389535988727392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7619,7 +7619,7 @@ GameObject:
   - component: {fileID: 4609389536317479360}
   - component: {fileID: 4609389536317479367}
   - component: {fileID: 4609389536317479361}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8268,7 +8268,7 @@ GameObject:
   - component: {fileID: 4609389536528090611}
   - component: {fileID: 4609389536528090605}
   - component: {fileID: 4609389536528090604}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47636,7 +47636,7 @@ GameObject:
   - component: {fileID: 4609389536717656356}
   - component: {fileID: 4609389536717656363}
   - component: {fileID: 4609389536717656357}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
