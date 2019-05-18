@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Sky
+  - Background
+  - Die
+  - Foreground
+  - Ground
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 3843311271
+    locked: 0
+  - name: Die
+    uniqueID: 3212010379
+    locked: 0
+  - name: Background
+    uniqueID: 2847395147
+    locked: 0
+  - name: Foreground
+    uniqueID: 2748763155
+    locked: 0
+  - name: Ground
+    uniqueID: 573125247
     locked: 0
