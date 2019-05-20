@@ -36,12 +36,15 @@ public class PlayerPlatformerController : PhysicsObject {
         // play sound and animation
         if (Input.GetButtonDown ("Jump") && grounded){            
             FindObjectOfType<AudioManager>().Play("Jump");
+            anim.SetFloat ("Speed", jumpTakeOffSpeed * 2);
             anim.SetBool("Jump", grounded);
             velocity.y = 2 * jumpTakeOffSpeed;
         }
         // Check if we're already in the air, if so cancel the jump
         else if (Input.GetButtonUp ("Jump")){
             if (velocity.y > 0){
+                anim.SetFloat ("Speed", jumpTakeOffSpeed);
+                anim.SetBool("Jump", false);
                 velocity.y = velocity.y * 0.1f;
             }
         }

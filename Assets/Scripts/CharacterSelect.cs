@@ -29,7 +29,6 @@ public class CharacterSelect: MonoBehaviour {
     [SerializeField] private Image characterSprite;
     
     private void Start(){
-        selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
         UpdateCharSelectUI();
     }
 
@@ -125,7 +124,6 @@ public class CharacterSelect: MonoBehaviour {
 
     // switch to game scene
     public void startButton(){
-        PlayerPrefs.SetInt("CharacterSelected", selectedIndex);
         SceneManager.LoadScene("World");
     }
 
