@@ -55,6 +55,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\TintTextureGenerator.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\GridInformation\Scripts\GridInformation.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Hexagonal Rule Tile\HexagonalRuleTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Isometric Rule Tile\IsometricRuleTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Pipeline Tile\Scripts\PipelineTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Random Tile\Scripts\RandomTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\RuleOverrideTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Rule Tile\Scripts\RuleTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
+     <Compile Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
      <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
      <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
      <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
@@ -110,142 +121,54 @@
      <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\AI\BT.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\AI\GunnerBeam.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\AI\GunnerBeamController.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\AI\GunnerProjectile.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\AI\InstantiateObject.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\AI\MissileGolem.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\AI\SendSignal.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Audio\AudioSurface.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Audio\BackgroundMusicPlayer.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Audio\MixerSliderLink.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Audio\RandomAudioPlayer.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\BulletPool.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\CharacterController2D.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\Damageable.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\Damager.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\EnemyBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\InputComponent.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\PlayerCharacter.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\PlayerInput.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\SpitterBT.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\MonoBehaviours\VFXController.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Enemies\ChomperAttackSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Enemies\ChomperDeathSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Enemies\ChomperPatrolSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Enemies\ChomperRunToTargetSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\AirborneMeleeAttackSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\AirborneSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\AirborneWithGunSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\CrouchSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\CrouchWithGunSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\DeadLandingSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\DeadSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\HurtSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\LocomotionSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\LocomotionWithGunSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\MeleeAttackSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\PushingSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\RespawnSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\SceneLinkedSMB.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Character\StateMachineBehaviours\Player\TriggerVFX.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\CameraShaker.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\Checkpoint.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InteractOnButton.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InteractOnButton2D.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InteractOnCollision.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InteractOnCollision2D.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InteractOnTrigger.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InteractOnTrigger2D.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InventoryController.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\InventoryItem.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\LayerMaskExtensions.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\ObjectPool.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Core\TimedDisabling.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Effect\BossDoorStateManager.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Effect\DropShadow.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Effect\Grenade.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Effect\GunnerLightning.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Effect\GunnerShieldEffect.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Effect\SpriteColorChange.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Effect\WaterArea.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Localization\OriginalPhrases.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Localization\TranslatedPhrases.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Localization\TranslatedText.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Localization\Translator.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\EnemySpawner.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\HealthPickup.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\HubDoor.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\ObjectPositionResetter.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\Platforms\FallthroughReseter.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\Platforms\MovingPlatform.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\Platforms\PlatformCatcher.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\Pushables\PressurePad.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\Pushables\Pushable.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Objects\WeaponPickup.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\CharacterStateSetter.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\GameObjectTeleporter.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\IDataPersister.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\PersistentDataManager.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\SavedData.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\SceneController.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\SceneControllerWrapper.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\SceneNameAttribute.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\SceneTransitionDestination.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\ScreenFader.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\SceneManagement\TransitionPoint.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Timeline\DirectorTrigger.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Timeline\ScrollingText\ScrollingTextBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Timeline\ScrollingText\ScrollingTextClip.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Timeline\ScrollingText\ScrollingTextMixerBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Timeline\ScrollingText\ScrollingTextTrack.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\UI\HealthUI.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\UI\InputDisplayUI.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\UI\KeyUI.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\UI\MenuActivityController.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\UI\OptionUI.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\UI\StartUI.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\AutoCameraSetup.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\DialogueCanvasController.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\Helpers.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\LocalTransformDuplicator.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\OpenURL.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\PhysicsHelper.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\PrewarmDirector.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\PriorityQueue.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\RuleTile.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\SetMaterialRenderQueue.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\StartScreenSpriteOffsetter.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\UIAutoscroll.cs" />
-     <Compile Include="Assets\Scripts\Other Scripts\Utility\VisibleBubbleUp.cs" />
+     <Compile Include="Assets\Scripts\CharacterSelect.cs" />
+     <Compile Include="Assets\Scripts\DeadzoneCamera.cs" />
      <Compile Include="Assets\Scripts\PerfectPixel.cs" />
      <Compile Include="Assets\Scripts\PhysicsObject.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerPlatformerController.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
+     <None Include="Assets\2d-extras-master\Assets\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\2d-extras-master\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -431,13 +354,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/Manmeet Singh/Desktop/MeanMarioMod/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/Manmeet Singh/Downloads/MeanMarioMod/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -784,16 +707,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="ExternalCheck.csproj">
-      <Project>{27372C59-2D82-ABAF-5A17-3DE6779FAD97}</Project>
-      <Name>ExternalCheck</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageManagerAssembly.csproj">
-      <Project>{A9697081-23EE-324C-C521-A6FE8EED3ECD}</Project>
-      <Name>PackageManagerAssembly</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
