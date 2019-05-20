@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 0
     width: 350
     height: 947
-  m_MinSize: {x: 277, y: 294}
-  m_MaxSize: {x: 4002, y: 8044}
+  m_MinSize: {x: 275, y: 272}
+  m_MaxSize: {x: 4002, y: 8022}
   vertical: 1
-  controlID: 164
+  controlID: 124
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 112
+  controlID: 159
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,10 +193,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 494}
-  m_MaxSize: {x: 18008, y: 14044}
+  m_MinSize: {x: 711, y: 472}
+  m_MaxSize: {x: 18008, y: 14022}
   vertical: 0
-  controlID: 163
+  controlID: 123
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,8 +237,8 @@ MonoBehaviour:
     y: 0
     width: 1222
     height: 442
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 348
     height: 947
-  m_MinSize: {x: 234, y: 494}
-  m_MaxSize: {x: 10004, y: 14044}
+  m_MinSize: {x: 234, y: 472}
+  m_MaxSize: {x: 10004, y: 14022}
   vertical: 1
   controlID: 57
 --- !u!114 &12
@@ -452,19 +452,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Male/nameri
+    - Assets/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Manmeet Singh\Downloads\MeanMarioMod
+  m_LastProjectPath: C:\Users\Manmeet Singh\Desktop\MeanMarioMod
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f2360000
     m_LastClickedID: 14066
-    m_ExpandedIDs: 00000000742a0000c2390000
+    m_ExpandedIDs: 00000000aa3100005c350000b8350000f2350000f8360000663700006a370000dc37000006380000a6380000e6380000563b0000863d0000b43d0000d63e00004e3f000020410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -492,21 +492,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000742a00002a2e00008c2e0000c62e0000ce2f0000383000003c300000b0300000e230000090310000d63100005434000098360000d0360000003800007a380000c2390000
+    m_ExpandedIDs: ffffffff00000000aa3100005c350000b8350000f2350000663700006a37000006380000a6380000e6380000423b0000563b0000863d0000b43d0000d63e00004e3f000020410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: CharacterSelect
-      m_OriginalName: CharacterSelect
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10722
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 14}
     m_SearchString: 
@@ -755,9 +755,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2c7ffff
-      m_LastClickedID: -14430
-      m_ExpandedIDs: 6ecafffffcd9ffff4adaffff9edafffffee6ffff2ce8ffff2ce9ffff80e9ffff06efffff44f9ffff34faffff3efaffff64faffff78fbffff
+      m_SelectedIDs: 202e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0efaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
