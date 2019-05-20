@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CharacterSelect: MonoBehaviour {
 
@@ -28,6 +29,7 @@ public class CharacterSelect: MonoBehaviour {
     [SerializeField] private Image characterSprite;
     
     private void Start(){
+        selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
         UpdateCharSelectUI();
     }
 
@@ -119,6 +121,12 @@ public class CharacterSelect: MonoBehaviour {
             characterSprite.sprite = charList[selectedIndex].charSprite;
             race.text = charList[selectedIndex].race;
         }
+    }
+
+    // switch to game scene
+    public void startButton(){
+        PlayerPrefs.SetInt("CharacterSelected", selectedIndex);
+        SceneManager.LoadScene("World");
     }
 
     [System.Serializable]
