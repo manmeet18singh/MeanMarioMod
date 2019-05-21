@@ -27,7 +27,7 @@ public class CharacterSelect: MonoBehaviour {
     [SerializeField] private TextMeshProUGUI gender;
     [SerializeField] private TextMeshProUGUI sexuality;
     [SerializeField] private Image characterSprite;
-    
+
     private void Start(){
         // selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
         UpdateCharSelectUI();
@@ -55,7 +55,7 @@ public class CharacterSelect: MonoBehaviour {
     public void spriteRightArrow(){
         selectedIndex++;
         selectedWomenIndex++;
-        
+
         // reset sprite to male start
         if(selectedIndex == 5 && selectedGenderIndex == 0){
             selectedIndex = 0;
@@ -94,7 +94,7 @@ public class CharacterSelect: MonoBehaviour {
         }
         UpdateCharSelectUI();
     }
-    
+
     public void sexRightArrow(){
         selectedSexIndex++;
         if(selectedSexIndex == sexList.Count){

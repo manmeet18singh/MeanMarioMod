@@ -269,7 +269,7 @@ MonoBehaviour:
   sexList:
   - sexuality: STRAIGHT
   - sexuality: GAY
-  - sexuality: LESBIAN
+  - sexuality: BISEXUAL
   race: {fileID: 1864178737}
   gender: {fileID: 1648575903}
   sexuality: {fileID: 1635340846}
